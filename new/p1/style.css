@@ -1,4 +1,4 @@
-/* Global Styles */
+     /* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #000000;
+    background: linear-gradient(145deg, #ffffff00, #4d7bff57);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@ body {
         max-width: 800px;
         padding: 30px;
         border-radius: 10px;
-        background: linear-gradient(145deg, #ab65ff, #00fffe);
+        background: linear-gradient(145deg, #ffffff00, #4d7bff57);
         box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
         text-align: center;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -50,12 +50,12 @@ h1 {
 }
 
 .input-file label {
-    display: inline-block;
+        display: inline-block;
     padding: 12px 25px;
     font-size: 16px;
-    background-color: #007bff;
-    color: white;
-    border-radius: 8px;
+    background-color: #ffc500;
+    color: #000000;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
@@ -120,14 +120,15 @@ h1 {
 .btn-primary {
     padding: 12px 25px;
     font-size: 16px;
-    background-color: #007bff;
-    color: white;
-    border-radius: 8px;
+        background-color: #edff438c;
+    color: #000000;
+    border-radius: 20px;
     margin-top: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
     border: none;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
 }
 
 .btn-primary:hover {
@@ -171,7 +172,7 @@ h1 {
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 1.2rem;
+        font-size: 2.2rem;
     }
 
     .image-preview {
